@@ -35,7 +35,7 @@ router.get('/users', (req, res, next) => {
 	res.write('<ul>');
 
 	users.map((user) => {
-		res.write(`<li>${user}</li>`);
+		res.write(`<li>${user.last_name}, ${user.first_name} - ${user.email}</li>`);
 	});
 
 	res.write('</ul>');
@@ -49,7 +49,7 @@ router.get('/users', (req, res, next) => {
 });
 
 router.post('/create-user', (req, res, next) => {
-	if (req.body.username === undefined || req.body.username.length <= 0) {
+	if (req.body.first_name === undefined || req.body.first_name.length <= 0) {
 		res.write('<html>');
 		res.write('<head><title>Users!</title></head>');
 		res.write('<body>');
@@ -59,7 +59,11 @@ router.post('/create-user', (req, res, next) => {
 		res.write('</html>');
 		return res.end();
 	} else {
-		addUser(req.body.username);
+		addUser({
+			first_name: req.body.first_name,
+			last_name : req.body.last_name,
+			email     : req.body.email,
+		});
 		res.redirect('/users');
 		next();
 		// res.write(`${req.body.username} added to the users list. <a href="/users">click here</a> to view them.`);

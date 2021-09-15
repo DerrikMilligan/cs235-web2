@@ -30,4 +30,4 @@ https://github.com/DerrikMilligan/cs235-web2
    *5 - Shows creativity and excels above and beyond requirements*
 
 8. Provide a brief justification (1-2 sentences) for selecting that category.
-I added redirects to the list. Some extra anchors to work with the pages nicely, and stored the users in a json file.
+I added redirects to the list. Some extra anchors to work with the pages nicely, sotring more information than just a name, and stored the users in a json file.

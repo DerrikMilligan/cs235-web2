@@ -1,7 +1,12 @@
 [
-  "Derrik",
-  "asdf",
-  "Bilbo",
-  "Kalli",
-  "Mom"
+  {
+    "first_name": "Derrik",
+    "last_name": "Milligan",
+    "email": "test@gmail.com"
+  },
+  {
+    "first_name": "Bilbo",
+    "last_name": "Baggins",
+    "email": "bilbo@gmail.com"
+  }
 ]
