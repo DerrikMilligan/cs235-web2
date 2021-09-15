@@ -2,7 +2,7 @@ After completing the assignment, be sure to push to Github. You do not have to w
 Please answer the questions in this text file and submit it to I-Learn.
 
 1. Copy and paste the URL for your source code repository (e.g., GitHub):
-https://github.com/DerrikMilligan/cs235-web2
+https://github.com/DerrikMilligan/cs235-web2/tree/master/prove01
 
 3. Briefly list and describe the elements of the application that are functioning. 
 - An index page / where we can add a new user
