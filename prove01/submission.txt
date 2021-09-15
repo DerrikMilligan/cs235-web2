@@ -2,20 +2,32 @@ After completing the assignment, be sure to push to Github. You do not have to w
 Please answer the questions in this text file and submit it to I-Learn.
 
 1. Copy and paste the URL for your source code repository (e.g., GitHub):
+https://github.com/DerrikMilligan/cs235-web2
 
 3. Briefly list and describe the elements of the application that are functioning. 
+- An index page / where we can add a new user
+- A /users where it displays all the current users
+- A /create-user page where we post a new user - redirects to /users after a successful post
+- Users stored in a json file
 
 4. Briefly describe any pieces of the assignment that are not yet working correctly.
+- None
 
 5. Briefly describe the "coolest" thing you learned while completing this assignment.
+- It was fun re learning to use require instead of import. It's been a long time since I've used it
 
 6. If you could change this assignment to be more effective or helpful, what would you change?
+- Tough call. I like the way this course is laid out so far.
+- We have good video tutorials to learn stuff
+- I really appreciate having a list of requirements for someone as myself who doesn't need the video tutorials so I can do the assignment without having to watch the videos.
+- I like that it's somewhat freeform with how I can structure my git repo
 
-7. Please select the category you feel best describes your assignment:
+7. Please select the category you feel best describes your assignment: 5
    1 - Some attempt was made
    2 - Developing, but significantly deficient
    3 - Slightly deficient, but still mostly adequate
    4 - Meets requirements
-   5 - Shows creativity and excels above and beyond requirements
+   *5 - Shows creativity and excels above and beyond requirements*
 
 8. Provide a brief justification (1-2 sentences) for selecting that category.
+I added redirects to the list. Some extra anchors to work with the pages nicely, and stored the users in a json file.
